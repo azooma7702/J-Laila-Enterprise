@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>J'Laila Enterprise</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MENU</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
+  <a href="#About Us" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About us</a>
+  <a href="#Menu" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Menu</a>
+  <a href="#Contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/la.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h1>J'LAILA ENTERPRISE</h1>
+      <p><b>The artistry of the baker, tasted in every bite.We was started the bakery since 2010, now it is 13 years that caught for every hearts of people bites our sweets.</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+   
+    <img src="background.cake.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h1>J'LAILA ENTERRISE</h1><p style="color: black;">
+      <p><b>A symphony of flavors, crafted with love and precision</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="birthday.jpeg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+   
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+    
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:2000px" id="band">
+    <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="logo.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About J'Laila Enterprise</h1><br>
+      <h5 class="w3-center">Since 2016</h5>
+      <p class="w3-large">The owner of this establishment is Puan Umie Laila Binti Muhammad, a 35-year-old Muslim and a mother of two children. Her fervent love for baking and decorating cakes led her to establish this home-based enterprise in 2016. With her extensive background in cake artistry, it's hardly a shock that she has amassed a loyal customer base who rely on her exceptional baking skills. </p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Umie Laila has made a concerted effort to use premium ingredients and proven baking methods, among other things as well to fills her customer satisfaction.</p>
+    </div>
+  </div>
+  
+  <hr>
+<h2 class="w3-wide">Event Cake</h2>
+    <p class="w3-opacity"><i>Customize any design you want!</i></p>
+    <p class="w3-justify"></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Birthday Cake</p>
+        <img src="birthday.jpeg" alt="Trulli" width="300" height="350"><br>
+      </div>
+      <div class="w3-third">
+        <p>Wedding Cake</p>
+        <img src="wedding.jpeg" alt="Trulli" width="300" height="350"><br>
+      </div>
+      <div class="w3-third">
+        <p>Cheese Cake</p>
+        <img src="cheesecake.jpeg" alt="Trulli" width="300" height="350"><br>
+      </div>
+    </div>
+  </div>
+        
+  <!--How to Book Section -->
+  <div class="w3-pink" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h1 class="w3-wide w3-center">PRICES</h1>
+      <p class="w3-opacity w3-center"><i>Remember to book your dream cakes!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-Pink">
+<li class="w3-padding"><h1>Wedding Cakes</h1> <h2 style="text-align:center;">FROM 160</h2><li>
+         <img src="wedding.jpeg" alt="Trulli" width="400" height="500"> 
+          
+          
+ <ul class="w3-ul w3-border w3-white w3-text-Pink">
+<li class="w3-padding"><h1>Birthday Cakes</h1> <h2 style="text-align:center;">FROM 15</h2><li>
+         <img src="birthday2.jpg" alt="Trulli" width="400" height="500">       
+    
+  <ul class="w3-ul w3-border w3-white w3-text-Pink">
+<li class="w3-padding"><h1>CheeseCake</h1> <h2 style="text-align:center;">RM10</h2><li>
+         <img src="cheesecake.jpeg" alt="Trulli" width="400" height="500">   
+     
+     
+    
+ <ul class="w3-ul w3-border w3-white w3-text-Pink">
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="wedding.jpeg" alt="Wedding Cakes" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-pink">
+            <p><b>Wedding Cakes</b></p>
+            <p class="w3-opacity">Customize any design you want for your big day</p>
+            <p>Just like this cake , we'll build a life together and have small bites each day to savour</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://wa.me/qr/VV5FTABAFIQWM1">BOOK NOW<button>
+           </div>
+        </div>        
+        <div class="w3-third w3-margin-bottom">
+          <img src="birthday.jpeg" alt="Birthday" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-pink">
+            <p><b>Birthday Cakes</b></p>
+            <p class="w3-opacity">Cake is for any event , it is the answer for everything</p>
+            <p>No matter the questions</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://wa.me/qr/VV5FTABAFIQWM1">BOOK NOW<button>
+          </div>    
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="cheesecake.jpeg" alt="Cheese Cake" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-pink">
+            <p><b>Cheese Cake</b></p>
+            <p class="w3-opacity">Creamy and sweet</p>
+            <p>There's always room for cheesecake</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://wa.me/qr/VV5FTABAFIQWM1">BOOK NOW<button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>               
+<html>
+<head>
+<title>Animated Image Gallery of J'Laila</title>
+<link rel="stylesheet" href="menu.css">
+</head>
+    <body>
+    
+        <h1>Gallery of J'Laila</h1>
+        <div class="gallery">
+           <div class="image-box active">
+             <img src="cake.jpg">
+             </div>
+           
+        <div class="image-box">
+             <img src="1.jpg">
+             </div>
+             
+         <div class="image-box">
+             <img src="3.jpg">
+             </div>
+             
+         <div class="image-box">
+             <img src="4.jpg">
+             </div>
+             
+         <div class="image-box">
+             <img src="5.jpg">
+             </div>
+             
+         <div class="image-box">
+             <img src="6.jpg">
+             </div>
+             
+         <div class="image-box">
+             <img src="7.jpg">
+             </div>
+             
+         <div class="image-box">
+             <img src="8.jpg">
+             </div>
+             
+         <div class="image-box">
+             <img src="9.jpg">
+             </div>
+             
+         </div>
+    </body>
+</html>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <!-- Ticket Modal -->
+  <div id="How to Book" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>BOOK</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Let's Get Free Decorations</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="What types of Cakes?">
+        <p><label><i class="fa fa-user"></i> How many the guest?</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter no.phone">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+
+                 <!-- The Contact Section -->
+                
+                
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+   <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Craving?!What you are waiting for!</i></p>
+    <div class="w3-row w3-padding-32">
+     
+        <i class="fa fa-map-marker" style="width:30px"></i>Umie.Laila<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 0109667200<br>
+      </div>
+     
+
+<html lang="en">
+<meta charset="UTF-8">
+<title>J'Laila Form</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://wa.me/qr/VV5FTABAFIQWM1">
+<script src="https://wa.me/qr/VV5FTABAFIQWM1"></script>
+<body>
+
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+<!-- Contact -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">What Event?</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Birthday..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">What Size?</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">4</option>
+          <option value="canada">6</option>
+          <option value="usa">8</option>
+          <option value="usa">12</option>
+          <option value="usa">Other Size</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="Do you want to custom?" name="Do you want to custom?" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+
+<button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://wa.me/qr/VV5FTABAFIQWM1">Submit<button>
+
+
+  
+<!-- End Page Content -->
+
+
+<!-- Image of location/map -->
+             <h1 class="w3-medium">How To find Me? <a href="https://maps.app.goo.gl/UDWWAUwcd9h5J6KF6" target="_blank">My Location</a></h1>  
+<img src="map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+ 
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-WhatsApp w3-hover-opacity"></i>
+  <p class="w3-medium">Contact Me <a href="https://www.facebook.com/umie.laila.16?mibextid=9R9pXO" target="_blank">Umie.Laila</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+</script>
+
+</body>
+</html>
+
+
+
